@@ -1,8 +1,6 @@
+cara instalasi
+- npm install
+- npm install --save-deev electron-builder
 
+- npm run build (membuat file exe)
 
-Cara instalasi
-npm install
-npm install --save-dev electron-builder
-
-untuk cara menjalankan - npm start khusus lockal
-                       - npm run build (untuk membuat  file exe)
