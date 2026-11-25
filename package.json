@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Aplikasi kalkulator desktop sederhana",
   "main": "main.js",
-  "author": "Riki",
+  "author": "Riki H",
   "license": "MIT",
   "scripts": {
     "start": "electron .",
