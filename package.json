@@ -1,0 +1,30 @@
+{
+  "name": "calculator-desktop",
+  "version": "1.0.0",
+  "description": "Aplikasi kalkulator desktop sederhana",
+  "main": "main.js",
+  "author": "Riki",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^45.5.0",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "appId": "com.yourname.calculator",
+    "productName": "Calculator Desktop",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
